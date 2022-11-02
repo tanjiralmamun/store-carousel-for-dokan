@@ -1,0 +1,22 @@
+.flex-direction-nav .flex-prev,
+.flex-direction-nav .flex-next {
+    top: 50% !important;
+}
+.flex-direction-nav .flex-prev:before,
+.flex-direction-nav .flex-next::before {
+    line-height: 1em;
+}
+.flex-direction-nav a {
+    height: 55px !important;
+}
+
+#dokan-seller-listing-wrap ul.dokan-seller-wrap li.dokan-single-seller {
+    width: 390px !important;
+}
+
+@media (max-width: 767px){
+    #dokan-seller-listing-wrap ul.dokan-seller-wrap li.dokan-single-seller {
+        margin-right: 0 !important;
+        padding-left: 5px !important;
+    }
+}
