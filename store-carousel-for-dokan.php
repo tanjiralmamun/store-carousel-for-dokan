@@ -33,7 +33,7 @@ add_action( 'wp_enqueue_scripts', 'scf_dk_scripts' );
  */
 function dokan_store_carousel_func( $atts ){
 
-    if( class_exists( 'Dokan_Pro' ) && class_exists( 'WooCommerce' ) ){
+    if( class_exists( 'WeDevs_Dokan' ) && class_exists( 'WooCommerce' ) ){
 
         /**
          * 
